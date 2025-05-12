@@ -1,0 +1,4 @@
+Description: 'Обнаружена попытка отключения AMSI (Antimalware Scan Interface) через PowerShell. Это может указывать на вредоносную активность, так как злоумышленники часто пытаются отключить AMSI для обхода антивирусной защиты.'
+EventDescriptions:
+  - LocalizationId: 'corrname_task_01_04'
+    EventDescription: 'Обнаружено отключение AMSI через PowerShell: {object.process.cmdline}'
