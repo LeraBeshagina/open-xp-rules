@@ -1,0 +1,4 @@
+Description: 'An attempt to disable AMSI (Antimalware Scan Interface) via PowerShell was detected. This may indicate malicious activity, as attackers often attempt to disable AMSI to bypass antivirus protection.'
+EventDescriptions:
+  - LocalizationId: 'corrname_task_01_04'
+    EventDescription: 'AMSI disable attempt via PowerShell detected: {object.process.cmdline}'
