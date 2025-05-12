@@ -1,0 +1,2 @@
+table_list default
+expect 1 {"correlation_name":"cred_access_teamviewer_memory_injection_via_temp_frida"}

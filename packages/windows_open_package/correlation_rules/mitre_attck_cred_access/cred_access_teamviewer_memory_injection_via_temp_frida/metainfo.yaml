@@ -1,0 +1,24 @@
+ContentAutoName: cred_access_teamviewer_memory_injection_via_temp_frida
+ExpertContext:
+  Created: 12.05.2025
+  Updated: 13.05.2025
+  KnowledgeHolders:
+    - '01_04'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Security-Auditing
+      EventID: []
+    - Provider: Microsoft-Windows-System
+      EventID: []
+ObjectId: SEC-CR-945027
+EventDescriptions:
+  - Criteria: correlation_name = "cred_access_teamviewer_memory_injection_via_temp_frida"
+    LocalizationId: corrname_cred_access_teamviewer_memory_injection_via_temp_frida
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1055
