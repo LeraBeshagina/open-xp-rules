@@ -1,0 +1,4 @@
+Description: 'Suspicious Access to TeamViewer Process from Temp Directory'
+EventDescriptions:
+  - LocalizationId: 'corrname_cred_access_teamviewer_memory_injection_via_temp_frida'
+    EventDescription: 'Detects attempts to access TeamViewer (or similar remote access software) process    from temporary directories (Temp, AppData), which may indicate code injection or credential theft.'

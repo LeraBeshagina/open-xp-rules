@@ -1,0 +1,4 @@
+Description: 'Подозрительный доступ к процессу TeamViewer из временного каталога'
+EventDescriptions:
+  - LocalizationId: 'corrname_cred_access_teamviewer_memory_injection_via_temp_frida'
+    EventDescription: 'Обнаруживает попытки доступа к процессу TeamViewer (или аналогичному ПО удаленного доступа)    из временных каталогов (Temp, AppData), что может указывать на инъекцию кода или кражу учетных данных.'

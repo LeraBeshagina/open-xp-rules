@@ -1,0 +1,4 @@
+Description: "Правило обнаруживает подозрительные изменения пароля компьютерной учетной записи ($MACHINE.ACC)\n  в ветке реестра HKLM\\SECURITY\\Policy\\Secrets, что может указывать на попытку создания Golden Ticket."
+EventDescriptions:
+  - LocalizationId: 'corrname_WIN_Detect_Abnormal_Process_Start'
+    EventDescription: 'Обнаружение изменения пароля машинной учетной записи в реестре'

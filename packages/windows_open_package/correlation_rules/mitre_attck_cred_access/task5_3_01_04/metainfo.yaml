@@ -1,0 +1,22 @@
+ContentAutoName: task5_3_01_04
+ExpertContext:
+  Created: 13.05.2025
+  Updated: 13.05.2025
+  KnowledgeHolders:
+    - '01_04'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-195233947
+EventDescriptions:
+  - Criteria: correlation_name = "task5_3_01_04"
+    LocalizationId: corrname_task5_3_01_04
+ContentRelations:
+  Implements:
+    ATTACK:
+      persistence:
+        - T1547.001

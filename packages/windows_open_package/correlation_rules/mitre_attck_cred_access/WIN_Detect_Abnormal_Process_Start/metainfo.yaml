@@ -1,0 +1,21 @@
+ContentAutoName: WIN_Detect_Abnormal_Process_Start
+ExpertContext:
+  Created: 13.05.2025
+  Updated: 13.05.2025
+  KnowledgeHolders: []
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-895165305
+EventDescriptions:
+  - Criteria: correlation_name = "WIN_Detect_Abnormal_Process_Start"
+    LocalizationId: corrname_WIN_Detect_Abnormal_Process_Start
+ContentRelations:
+  Implements:
+    ATTACK:
+      credential-access:
+        - T1003

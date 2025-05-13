@@ -1,0 +1,4 @@
+Description: 'Обнаружено изменение ключа реестра, связанного с ожидающими групповыми политиками (GPO). Злоумышленники могут использовать этот метод для persistence, изменяя параметры ожидающих GPO.'
+EventDescriptions:
+  - LocalizationId: 'corrname_task5_3_01_04'
+    EventDescription: 'Событиях Sysmon с ID 13 (изменение реестра)- Изменении значений в ветке реестра Microsoft IEAK GroupPolicy\PendingGPOs- Установке специфичных значений (defaultinstall, gpo.inf или dword 0x1)- Выполнении процесса regedit.exe'

@@ -1,0 +1,4 @@
+Description: "This rule detects suspicious changes to machine account password ($MACHINE.ACC)\n  in HKLM\\SECURITY\\Policy\\Secrets registry hive, which may indicate Golden Ticket attempt."
+EventDescriptions:
+  - LocalizationId: 'corrname_WIN_Detect_Abnormal_Process_Start'
+    EventDescription: 'Machine Account Password Change in Registry Detection'

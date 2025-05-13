@@ -1,0 +1,4 @@
+Description: 'Detected modification of a registry key related to pending Group Policies (GPO). Attackers may use this method for persistence by altering pending GPO settings.'
+EventDescriptions:
+  - LocalizationId: 'corrname_task5_3_01_04'
+    EventDescription: 'Sysmon events with ID 13 (registry modification)- Value changes in Microsoft IEAK GroupPolicy\PendingGPOs registry branch- Setting specific values (defaultinstall, gpo.inf or dword 0x1)- Execution by regedit.exe process'

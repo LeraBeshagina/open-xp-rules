@@ -1,0 +1,4 @@
+Description: "Launch of Suspicious Software\nProcess Name: com-hijack.exe"
+EventDescriptions:
+  - LocalizationId: 'corrname_task5_4_01_04'
+    EventDescription: 'Detection of a suspicious process "com-hijack.exe" launched from the Downloads folder. The file lacks metadata (description, company, product), which is typical for malware. The process runs with high privileges, increasing the risk of system compromise.'
